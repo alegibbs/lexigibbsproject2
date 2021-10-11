@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* CSS Document */
+.restless{
+  /*background-image: url("restless.png");
+  position: absolute;
+  left: 0px;
+  top: -1px;
+  width: 1284px;
+  height: 688px;
+  z-index: 1;*/
+	width:100vw;
+	height: 100vh;
+}
+.snoozestop{
+  background-image: url("snooze/stop.png");
+  position: absolute;
+  left: 500px;
+  top: 140px;
+  width: 414px;
+  height: 406px;
+  z-index: 2;
+	opacity:0;
+	transition:opacity 2s;
+}
+.snoozestop:hover{
+	opacity:1;
+}
+.stop{
+  background-image: url("stop.png");
+  position: absolute;
+  left: 618px;
+  top: 463px;
+  width: 178px;
+  height: 83px;
+  z-index: 3;
+	opacity:0;
+	transition:opacity 0s;
+}
+.stop:hover{
+	opacity:1;
+}
+.mainpage{
+	width:100vw;
+	height:100vh;
+}
+.brain{
+	position:absolute;
+	left:575px;
+	top:79px;
+	width:300px;
+	height:200px;
+	opacity:0;
+	transition:opacity 0s;
+}
+.brain:hover{
+	opacity:1;
+}
+.school{
+  background-image: url("school.png");
+  position: absolute;
+  left: 91px;
+  top: 175px;
+  width: 552px;
+  height: 552px;
+  z-index: 5;
+	opacity:1;
+	transition:opacity 0s;
+}
+.school:hover{
+	opacity: 0;
+}
+.yellow {
+  background-image: url("yellow.png");
+  position: absolute;
+  left: 91px;
+  top: 175px;
+  width: 552px;
+  height: 552px;
+  z-index: 12;
+}
+.yellow:hover{
+	opacity:0
+}
+.parenting{
+  background-image: url("parenting.png");
+  position: absolute;
+  left: 91px;
+  top: 727px;
+  width: 552px;
+  height: 552px;
+  z-index: 6;
+	opacity:1;
+	transition:opacity 0s;
+}
+.parenting:hover{
+	opacity: 0;
+}
+.green {
+  background-image: url("green.png");
+  position: absolute;
+  left: 91px;
+  top: 727px;
+  width: 552px;
+  height: 552px;
+  z-index: 14;
+}
+.green:hover{
+	opacity: 0;
+}
+.socialmedia{
+  background-image: url("socialmedia.png");
+  position: absolute;
+  left: 91px;
+  top: 1279px;
+  width: 552px;
+  height: 552px;
+  z-index: 7;
+	opacity:1;
+	transition:opacity 0s;
+}
+.socialmedia:hover{
+	opacity:0;
+}
+.red {
+  background-image: url("red.png");
+  position: absolute;
+  left: 91px;
+  top: 1279px;
+  width: 552px;
+  height: 552px;
+  z-index: 9;
+}
+.red:hover{
+	opacity:0;
+}
+.isolation {
+  background-image: url("isolation.png");
+  position: absolute;
+  left: 643px;
+  top: 175px;
+  width: 552px;
+  height: 552px;
+  z-index: 3;
+	opacity:1;
+	transition:opacity 0s;
+}
+.blue {
+  background-image: url("blue.png");
+  position: absolute;
+  left: 643px;
+  top: 175px;
+  width: 552px;
+  height: 552px;
+  z-index: 13;
+}
+.blue:hover{
+	opacity:0;
+}
+.isolation:hover{
+	opacity:0;
+}
+.verbal {
+  background-image: url("verbal.png");
+  position: absolute;
+  left: 643px;
+  top: 727px;
+  width: 552px;
+  height: 552px;
+  z-index: 4;
+	opacity:1;
+	transition:opacity 0s;
+}
+.pink {
+  background-image: url("pink.png");
+  position: absolute;
+  left: 642px;
+  top: 727px;
+  width: 552px;
+  height: 552px;
+  z-index: 11;
+}
+.pink:hover{
+	opacity:0;
+}
+.verbal:hover{
+	opacity:0;
+}
+.socialexpectations {
+  background-image: url("socialexpectations.png");
+  position: absolute;
+  left: 643px;
+  top: 1279px;
+  width: 552px;
+  height: 552px;
+  z-index: 8;
+	opacity:1;
+	transition:opacity 0s;
+}
+.socialexpectations:hover{
+	opacity: 0;
+}
+.darkblue {
+  background-image: url("blue.png");
+  position: absolute;
+  left: 643px;
+  top: 1279px;
+  width: 552px;
+  height: 552px;
+  z-index: 10;
+}
+.darkblue:hover{
+	opacity: 0
+}
+.text{
+  position: absolute;
+  left: 60px;
+  top: 1908px;
+  width: 1165px;
+  height: 204px;
+  z-index: 3;
+}
+pre{
+	background-color:rosybrown;
+	margin-right: auto;
+	margin-left: auto;
+	border:solid #2E012E}
+
+
+
+
